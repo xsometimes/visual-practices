@@ -108,7 +108,7 @@ const dataSource = 'https://s5.ssl.qhres.com/static/b0695e2dd30daa64.json';
   /**
    * 获取当前鼠标位置所在的node，判断点是否在node内
    * 对待圆：鼠标点击位置在该node内：点到该圆圆心的距离 < 该圆的半径；在圆内的点横坐标和纵坐标分别对应的取值范围
-   * 对待多边形：凸包算法
+   * 对待多边形：凸包算法 https://www.cnblogs.com/cglongge/p/9408417.html
    */
   // 1、第一种方式
   function calcPos0 (event) {
