@@ -1,4 +1,4 @@
-(async function () {
+(function () {
 
   // 步骤一、创建WebGL上下文
   const canvas = document.querySelector('canvas');
